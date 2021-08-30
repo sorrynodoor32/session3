@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html css</title>
+</head>
+<body>
+    <div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem id laborum voluptates repudiandae perspiciatis dolore distinctio? Voluptate et sapiente pariatur veniam veritatis consectetur, quasi, itaque voluptatum, aliquam animi dolore expedita.</p>
+    <a href="http://google.com" target ="blank" rel="noopener noreferrer">google</a>
+    <img src="https://images.unsplash.com/photo-1630149461875-233003e5cbb7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1866&q=80" alt="Hình ảnh">
+    </div>
+    <div class=""></div>
+    <header></header>
+    <footer></footer>
+    <aside></aside>
+    <!-- thẻ chú thích nằm bên trái màn hình? -->
+    <nav></nav>
+    <!-- thẻ điều hướng, thường sử dụng để tạo thanh menu -->
+    <main></main>
+    <!-- thẻ chính của trang web -->
+    <section></section>
+    <!-- tương tự thẻ div, dùng để bao một khối nào lại -->
+    <article></article>
+    <!-- thẻ tượng trưng cho một bài viết liên kết
+     -->
+     <iframe src="" frameborder="0"></iframe>
+     <iframe width="784" height="490" src="https://www.youtube.com/embed/g4GBGAo_riE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <!-- dùng để nhúng một liên kết nào đó vào -->
+     <span>abc</span>
+     <!-- thẻ dùng cho những đoạn chữ ngắn -->
+     <strong>bold</strong>
+     <!-- thẻ in đậm -->
+     <em>italic</em>
+     <!-- in nghiêng -->
+     <b>bold</b>
+     <i>italic</i>
+
+     <div class="" id="">
+         <!-- class: có thể trùng nhau, sử dụng cho nhiều phần tử
+         id: chỉ sử dụng cho 1 phần tử -->
+     </div>
+
+     <!-- BEM: Block element modifier (Cách đặt tên cho class)
+            Laptop: Block
+            Keyboar,mouse, touchpad, screen: Elenment
+            Laptop big, laptop small: Moddifierfor block
+            Small keyboard, small screen: modiffir for elenment
+            Cấu trúc:
+            Block__Element--modifier
+            Block--modifier
+            Block__element
+
+            Ví dụ:
+            laptop__keyboard, laptop__touchpad, laptop__screen
+            laptop--small, laptop--big
+            laptop__touchpad--small,...
+
+         -->
+         <!-- ex1: 
+            block: flash-message
+            element: title, image, description(desc), button
+            Modifier: primary, secondary
+         -->
+         <!-- block 1 & 2:
+            flash-message
+            flash-message__image, flash-message__title, flash-message__desc,flash-message__button
+            
+            block 1:
+            flash-message__title--primary, flash-message__button--primary
+            Block 2: flash-message__title--secondary, flash-message__button--secondary
+            -->
+        <h3 class="flash-message__title flash-message__title--primary">
+            Right on
+        </h3>    
+        <button 
+            class="flash-message__button flash-message__button--secondary">
+        </button>
+        
+
+</body>
+</html>
